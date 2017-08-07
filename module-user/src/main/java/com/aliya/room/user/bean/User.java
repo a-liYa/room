@@ -1,4 +1,4 @@
-package com.aliya.room.bean;
+package com.aliya.room.user.bean;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;

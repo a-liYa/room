@@ -1,11 +1,11 @@
-package com.aliya.room;
+package com.aliya.room.simple;
 
 import android.app.Application;
 import android.os.SystemClock;
 import android.util.Log;
 
-import com.aliya.room.database.AppDatabase;
-import com.aliya.room.database.Builder;
+import com.aliya.room.Builder;
+import com.aliya.room.user.database.AppDatabase;
 
 /**
  * Application

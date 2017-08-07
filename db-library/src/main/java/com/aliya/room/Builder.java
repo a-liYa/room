@@ -1,4 +1,4 @@
-package com.aliya.room.database;
+package com.aliya.room;
 
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
@@ -27,7 +27,7 @@ public class Builder {
         return db;
     }
 
-    public static <T> T getDatabase() {
+    public static <T extends DaoBase> T getDatabase() {
         return (T) db;
     }
 
